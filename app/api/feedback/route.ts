@@ -1,0 +1,2 @@
+import { NextRequest, NextResponse } from 'next/server';
+export async function POST(request:NextRequest){ try { const body=await request.json(); const {name,rating,comment}=body; if(!name||!rating||!comment) return NextResponse.json({success:false,error:'Missing required fields'},{status:400}); console.info('FlavorHub feedback',{name,rating,comment,receivedAt:new Date().toISOString()}); return NextResponse.json({success:true}); } catch { return NextResponse.json({success:false,error:'Invalid request'},{status:400}); } }

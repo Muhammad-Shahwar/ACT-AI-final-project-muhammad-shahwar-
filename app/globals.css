@@ -1,0 +1,12 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root { color-scheme: light; }
+html { scroll-behavior: smooth; }
+body { background: #fffbeb; color: #111827; }
+* { box-sizing: border-box; }
+@keyframes pulseStep { 0%,100%{opacity:.35;transform:translateY(0)} 50%{opacity:1;transform:translateY(-2px)} }
+.loader-step { animation: pulseStep 1.4s ease-in-out infinite; }
+.loader-step:nth-child(2){ animation-delay:.2s; }
+.loader-step:nth-child(3){ animation-delay:.4s; }
