@@ -1,7 +1,8 @@
 # FlavorHub - AI Menu Assistant
 
 ## What it does & Problem it solves (for restaurant customers)
-FlavorHub turns a traditional restaurant menu into an informative, interactive nutrition experience. Customers can browse dishes, understand calories and macronutrients, see allergens, filter by dietary needs, and ask plain-language questions before ordering.
+FlavorHub is a QR-code-powered restaurant menu app that helps customers make informed food choices when they scan the qr code by combining a digital menu with an AI Menu Assistant. Instead of ordering food, customers can browse dishes, view nutritional information, ingredients, allergens, and ask AI whether a dish matches their dietary goals or preferences before deciding what to eat.
+
 
 ## Live URL
 https://flavorhub.vercel.app
